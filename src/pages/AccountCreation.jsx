@@ -125,7 +125,7 @@ function AccountCreation() {
             <button
               onClick={handleSubmit}
               disabled={loading}
-              className="disabled:cursor-not-allowed w-full h-12 bg-[#141518] rounded-lg text-base text-gray-400 tracking-wide uppercase enabled:hover:text-white duration-300 enabled:hover:border-[1px] enabled:hover:border-mainBGC border-transparent"
+              className="disabled:cursor-not-allowed w-full h-12 bg-[#141518] rounded-lg text-base text-gray-400 tracking-wide uppercase enabled:hover:text-white duration-300 enabled:hover:border-[1px] enabled:hover:border-mainBGC border-transparent active:bg-[#040505]"
             >
               Create
             </button>
