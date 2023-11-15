@@ -5,7 +5,7 @@ import AccountCreation from "./pages/AccountCreation";
 
 export default function App() {
   return (
-    <div className="bg-mainBGC">
+    <div className="bg-mainBGC min-h-screen h">
       <Routes>
         <Route
           path="/"

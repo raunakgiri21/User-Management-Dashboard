@@ -17,9 +17,11 @@ export default {
         mainBGC: "#120430",
         secondaryBGC: "#120440",
         ternaryBGC: "#120633",
+        errorLine: "#520000",
       },
       boxShadow: {
-        shadowOne: "2px 2px 10px black, 5px 5px 19px secondaryBCG",
+        shadowOne: "2px 2px 10px black, 5px 5px 10px #222",
+        shadowTwo: "1px 1px 10px black, 2px 2px 10px #233",
       },
     },
   },
