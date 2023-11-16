@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import Layout from "./components/shared/Layout";
 import UserDetails from "./pages/UserDetails";
 import AccountCreation from "./pages/AccountCreation";
+import HomePage from "./pages/HomePage";
 
 export default function App() {
   return (
@@ -11,6 +12,10 @@ export default function App() {
           path="/"
           element={<Layout />}
         >
+          <Route
+            index
+            element={<HomePage />}
+          />
           <Route
             path="user-details"
             element={<UserDetails />}
